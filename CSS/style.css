@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Lobster&display=swap');
+
+.navbar{    
+    font-family: 'Lobster',cursive;
+    font-size: 2em!important;
+    background-color: #384259!important;
+    height: 11%;
+}
+
+.nav-link{
+    color: #3490de!important;
+    padding: 0em .5em!important;
+}
+
+.navbar-brand{
+    color: #3490de!important;
+}
+
+.more {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.container{
+    background-color: #384259;
+    position: relative;
+    height: 1500px;
+}
+
+h1{
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: larger;
+}
+
+.jumbotron{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    opacity: 50%;
+    margin-bottom: 50px; 
+}
+
+.container-fluid p{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    left: 350px;
+    font-size:x-large;
+    font-family: 'Akaya Kanadaka', cursive;
+    width: 400px;  
+}
+
+.card :hover{
+    width: 300px;
+    height: 300px
+}
+
+.middle .card{
+    margin: 20px;
+    margin-top: 50px;
+    box-shadow:
+     0px 0px 5px 5px #3490de,
+     0px 0px 10px 10px rgb(168, 227, 252);   
+}
+
+.middle{
+    background-color: #384259;
+}
+
+.space{
+    height: 150px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px){
+
+    .navbar{    
+        font-family: 'Lobster',cursive;
+        font-size: 2em!important;
+        background-color: #384259!important;
+        height: 25%;
+    }
+    
+    .navbar-brand{
+        color: #3490de!important;
+        position: relative;
+        left: 10px;
+        font-size: 1.8em !important;
+    }
+    
+    .container{
+        background-color: #384259;
+        position: relative;
+        height: 5600px;
+        width: 380px !important;
+    }
+
+    h1{
+        padding-top: 190px;
+        text-align: center;
+        font-family: 'Akaya Kanadaka', cursive;
+        font-size: larger;
+        width: 250px;
+        position: relative;
+        left: 50px;
+        top: 18px;
+    }
+
+    .container-fluid p{
+        text-align: center;
+        position: relative;
+        bottom: 530px;
+        left: 30px;
+        font-size:22px;
+        font-family: 'Akaya Kanadaka', cursive;
+        width: 260px;
+    }
+    
+    .top .container{
+        height: 853px !important;
+    }
+
+    .jumbotron{
+        width: 300px;
+        height: 465px;
+        margin: 10px 10px 10px 10px;
+        opacity: 50%;
+        margin-bottom: 50px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .card{
+        position: relative;
+        left: 10px;
+        width: 18rem !important;
+        height: 550px;
+        font-size: large;
+        text-align: center;
+    }
+
+    iframe{
+        width: 18rem !important;
+        height: 415px;
+    }
+
+    .card :hover{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .bottom .card{
+        height: 330px !important;
+        width: 375px !important;
+    }
+
+}
